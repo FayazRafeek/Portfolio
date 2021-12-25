@@ -27,22 +27,10 @@ export default function Home() {
         <meta name="theme-color" content="#ffffff"/>
       </Head>
 
-        <div className=" z-0 w-full h-full overflow-hidden absolute top-0 left-0">
-          <svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M523.5 315L0 2.5L1083.5 -2.5L1078.5 700.5H767.5L411.5 468L523.5 315Z" fill="url(#paint0_angular_201_5)"/>
-            <defs>
-            <radialGradient id="paint0_angular_201_5" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(541.75 349) rotate(90) scale(351.5 541.75)">
-            <stop stop-color="#EFEFEF"/>
-            <stop offset="0.65625" stop-color="#EFEFEF" stop-opacity="0"/>
-            </radialGradient>
-            </defs>
-          </svg>
-        </div>
-
         <div className="z-10 flex flex-col justify-center items-center">
 
           <div className="avatar-parent overflow-hidden rounded-full w-40 h-40 shadow-lg">
-            <img src="/images/avatar.jpeg" alt="Fayaz Rafeek" width={160} height={160} />
+            <Image src="/images/avatar.jpeg" alt="Fayaz Rafeek" width={160} height={160} />
           </div>
 
           <div className="name text-xl mt-4 font-sans font-semibold text-gray-600">
